@@ -24,3 +24,15 @@ The RaceDay system is a platform designed to allow organizers to create running 
 
 ## YouTube Video
 [Insert your unlisted YouTube link here]
+
+## Learning Outcomes
+- Designed ERD
+- Created API Plan
+- Wrote SQL Script
+
+## Database
+- Users
+- Events
+- Categories
+- Enrolments
+- Results
