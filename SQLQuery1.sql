@@ -50,7 +50,7 @@ CREATE TABLE events (
     updated_at DATETIME DEFAULT GETDATE()
 );
 
--- 5. Create Enrolments Table
+-- Create the Enrolments table
 CREATE TABLE enrolments (
     enrolment_id INT IDENTITY(1,1) PRIMARY KEY,
     participant_id INT NOT NULL FOREIGN KEY REFERENCES users(user_id),
