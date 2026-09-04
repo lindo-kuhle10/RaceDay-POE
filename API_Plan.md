@@ -2,7 +2,7 @@
 
 | HTTP method | Route | Description | Role required | Request body | Expected response |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Authentication** |
+|## Authentication|
 | POST | /api/auth/register | Registers a new user into the system. | None | { "firstName", "lastName", "email", "password", "role" } | 201 Created - User object. 400 Bad Request - Invalid data. |
 | POST | /api/auth/login | Authenticates a user and returns a JWT token. | None | { "email", "password" } | 200 OK - Token and User object. 401 Unauthorized - Invalid credentials. |
 | **User Profile** |
