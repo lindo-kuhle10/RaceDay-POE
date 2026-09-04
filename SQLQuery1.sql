@@ -66,7 +66,7 @@ CREATE TABLE enrolments (
     CONSTRAINT UQ_Enrolment UNIQUE (participant_id, event_id)
 );
 
--- 6. Create Results Table
+-- Create the Results table
 CREATE TABLE results (
     result_id INT IDENTITY(1,1) PRIMARY KEY,
     participant_id INT NOT NULL FOREIGN KEY REFERENCES users(user_id),
