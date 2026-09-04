@@ -4,7 +4,7 @@ GO
 USE RaceDay;
 GO
 
--- 2. Create Users Table
+-- Create the Users table
 CREATE TABLE users (
     user_id INT IDENTITY(1,1) PRIMARY KEY,
     first_name NVARCHAR(50) NOT NULL,
