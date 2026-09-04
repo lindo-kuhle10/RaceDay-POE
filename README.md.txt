@@ -4,7 +4,9 @@ A system for managing races and events.
 ## Roles
 - Organizer
 - Participant
-## Description
+## Tech Stack
+- C#
+- SQL Server
 The RaceDay system is a platform designed to allow organizers to create running events, and participants to browse, enroll, and view results.
 
 ## Roles
