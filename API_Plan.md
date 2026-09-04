@@ -5,7 +5,7 @@
 |## Authentication|
 | POST | /api/auth/register | Registers a new user into the system. | None | { "firstName", "lastName", "email", "password", "role" } | 201 Created - User object. 400 Bad Request - Invalid data. |
 | POST | /api/auth/login | Authenticates a user and returns a JWT token. | None | { "email", "password" } | 200 OK - Token and User object. 401 Unauthorized - Invalid credentials. |
-| **User Profile** |
+| ## User Profile |
 | GET | /api/users/{id} | Retrieves a specific user's profile details. | Any | None | 200 OK - User object. 404 Not Found - User doesn't exist. |
 | PUT | /api/users/{id} | Updates the logged-in user's profile details. | Any | { "firstName", "lastName", "phone", "emergencyContact" } | 200 OK - Updated User object. 403 Forbidden - User is not the owner. |
 | **Events** |
