@@ -8,7 +8,7 @@
 | ## User Profile |
 | GET | /api/users/{id} | Retrieves a specific user's profile details. | Any | None | 200 OK - User object. 404 Not Found - User doesn't exist. |
 | PUT | /api/users/{id} | Updates the logged-in user's profile details. | Any | { "firstName", "lastName", "phone", "emergencyContact" } | 200 OK - Updated User object. 403 Forbidden - User is not the owner. |
-| **Events** |
+|## Events and Categories|
 | GET | /api/events | Retrieves a list of all events. | None (Public) | None | 200 OK - List of Event objects. |
 | GET | /api/events/{id} | Retrieves details of a specific event. | None (Public) | None | 200 OK - Event object. 404 Not Found - Event doesn't exist. |
 | POST | /api/events | Creates a new event. | Organizer / Admin | { "name", "description", "eventDate", "location", "entryFee", "maxParticipants", "categoryId" } | 201 Created - Event object. 403 Forbidden - Not an Organizer. |
