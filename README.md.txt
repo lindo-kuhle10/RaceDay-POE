@@ -11,6 +11,8 @@ A system for managing races and events.
 Run RaceDay_Schema.sql in SSMS.
 ## CI/CD
 CI/CD workflow added.
+## YouTube Video
+Link will be added here.
 The RaceDay system is a platform designed to allow organizers to create running events, and participants to browse, enroll, and view results.
 
 ## Roles
