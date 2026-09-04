@@ -1,4 +1,4 @@
-# RaceDay System
+# RaceDay - Portfolio of Evidence
 ## Description
 A system for managing races and events.
 ## Roles
