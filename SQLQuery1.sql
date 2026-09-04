@@ -1,4 +1,4 @@
--- 1. Create the Database
+-- RaceDay Database Script
 CREATE DATABASE RaceDay;
 GO
 USE RaceDay;
