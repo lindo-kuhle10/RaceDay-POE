@@ -1,4 +1,10 @@
 # RaceDay System
+## Description
+A system for managing race events, enrolments, and results.
+
+## Roles
+- **Organizer**: Creates and manages events and results.
+- **Participant**: Enrolls in events and views results.
 
 ## Description
 The RaceDay system is a platform designed to allow organizers to create running events, and participants to browse, enroll, and view results.
