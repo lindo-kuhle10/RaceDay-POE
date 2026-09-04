@@ -21,7 +21,7 @@ CREATE TABLE users (
     is_active BIT DEFAULT 1
 );
 
--- 3. Create Categories Table
+-- Create the Events table
 CREATE TABLE categories (
     category_id INT IDENTITY(1,1) PRIMARY KEY,
     category_name NVARCHAR(50) NOT NULL,
