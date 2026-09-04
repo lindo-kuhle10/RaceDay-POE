@@ -21,6 +21,6 @@
 | POST | /api/events/{eventId}/enrol | Records a new enrolment for the logged-in user. | Any | { "categoryId" } | 201 Created - Enrolment object. 409 Conflict - Already enrolled. |
 | GET | /api/enrolments/my | Retrieves all events the logged-in user enrolled in. | Any | None | 200 OK - List of Enrolment objects. |
 | DELETE | /api/enrolments/{enrolmentId} | Withdraws a user from an event. | Any | None | 204 No Content. 404 Not Found - Enrolment doesn't exist. |
-| **Results** |
+|## Enrolments and Results|
 | GET | /api/events/{eventId}/results | Retrieves the final results for a specific event. | None (Public) | None | 200 OK - List of Result objects sorted by time. |
 | POST | /api/events/{eventId}/results | Records a result for a participant in a specific event. | Organizer / Admin | { "participantId", "finishTime", "position" } | 201 Created - Result object. 404 Not Found - User/Event doesn't exist. |
